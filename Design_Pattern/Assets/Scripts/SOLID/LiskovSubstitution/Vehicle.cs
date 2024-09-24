@@ -5,24 +5,24 @@ using UnityEngine;
 /*디자인 패턴 공부  : 리스코프 치환 원칙*/
 public class Vehicle : MonoBehaviour 
 {
-    public float speed = 100;
-    public Vector3 direction;
-    public void GoForward()
-    {
-    
-    }
-    public void Reverse()
-    { 
-    
-    }
-    public void TurnRight()
-    {
+    /* public float speed = 100;
+     public Vector3 direction;
+     public void GoForward()
+     {
 
-    }
-    public void TurnLeft()
-    {
-    
-    }
+     }
+     public void Reverse()
+     { 
+
+     }
+     public void TurnRight()
+     {
+
+     }
+     public void TurnLeft()
+     {
+
+     }*/
 
     /*
         LSP(리스코프 치환 원칙)는 파생된 클래스가 기본 클래스로 대체될 수 있어야 한다고 명시되어 있다. 
@@ -34,17 +34,17 @@ public class Vehicle : MonoBehaviour
         오류를 발생시키지 않고 Car 또는 Truck과 같은 서브 클래스를 사용할 수 있게 한다.
     */
 
-    public class Navigator
-    {
-        public void Move(Vehicle vehicle)
-        {
-            vehicle.GoForward();
-            vehicle.TurnLeft();
-            vehicle.GoForward();
-            vehicle.TurnRight();
-            vehicle.GoForward();
-        }
-    }
+    /* public class Navigator
+     {
+         public void Move(Vehicle vehicle)
+         {
+             vehicle.GoForward();
+             vehicle.TurnLeft();
+             vehicle.GoForward();
+             vehicle.TurnRight();
+             vehicle.GoForward();
+         }
+     }*/
 
     /*
         그리고 위의 코드처럼 Car Truck 두 개의 서브 클래스에서 공통적으로 사용되는 Navigator라는 클래스를 생성하여 관리할수 있게 된다.
@@ -77,5 +77,9 @@ public class Vehicle : MonoBehaviour
         — 상속보다는 합성을 우선시한다.
           상속을 통해 기능의 전달을 시도하는 대신, 특정한 동작을 캡슐화할 있도록 인터페이스 또는 별도의 클래스를 만든 뒤
           믹스 앤 매치를 통해 다양한 기능의 합성물을 생성한다. 
+    */
+    /*
+        그리하여 Navigator Calss 의 로직들을 인터페이스화 하여 스크립트로 분산 시킨 뒤 Car 전용 스크립트와 Train 전용 스크립트를 만들어 관리하면 된다.
+        리스코프 치환 원칙에 따라 상속 사용 방법에 제한을 두어 코드 베이스를 확장 가능하고 유연하게 유지해야 한다.
     */
 }
