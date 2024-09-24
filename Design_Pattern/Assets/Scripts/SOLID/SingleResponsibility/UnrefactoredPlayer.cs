@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+/*디자인 패턴 공부  : 단일 책임 원칙*/
 public class UnrefactoredPlayer : MonoBehaviour
 {
-    /*디자인 패턴 공부  : 단일 책임 원칙*/
     
     /*
         [SerializeField] private string inputAxisName; 
