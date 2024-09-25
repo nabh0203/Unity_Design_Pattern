@@ -4,10 +4,8 @@
     "\\Design_Pattern",
     "\\Design_Pattern\\Assets",
     "\\Design_Pattern\\Assets\\Scripts",
-    "\\Design_Pattern\\Assets\\Scripts\\SOLID",
-    "\\Design_Pattern\\Assets\\Scripts\\SOLID\\DependencyInversion",
-    "\\Design_Pattern\\Assets\\Scripts\\SOLID\\InterfaceSegregation",
     "\\Design_Pattern\\Assets\\Scripts\\StateMachine"
   ],
+  "SelectedNode": "\\Design_Pattern\\Assets\\Scripts\\StateMachine\\StateMachineEX",
   "PreviewInSolutionExplorer": false
 }
