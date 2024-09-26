@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RunMotion : IMotion
+public class ThirdStage : IStage
 {
-    PalyerMotion palyer;
-    public RunMotion(PalyerMotion palyer)
+    PlayerStage player;
+    public ThirdStage(PlayerStage player)
     {
-        this.palyer =palyer;
+        this.player = player;
     }
     public void Enter()
     {
