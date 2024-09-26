@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class RunMotion : IMotion
 {
+    PalyerMotion palyer;
+    public RunMotion(PalyerMotion palyer)
+    {
+        this.palyer =palyer;
+    }
     public void Enter()
     {
 
