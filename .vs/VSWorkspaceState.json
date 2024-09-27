@@ -4,8 +4,9 @@
     "\\Design_Pattern",
     "\\Design_Pattern\\Assets",
     "\\Design_Pattern\\Assets\\Scripts",
-    "\\Design_Pattern\\Assets\\Scripts\\StateMachine"
+    "\\Design_Pattern\\Assets\\Scripts\\StateMachine",
+    "\\Design_Pattern\\Assets\\Scripts\\StateMachine\\StateMachineEX"
   ],
-  "SelectedNode": "\\Design_Pattern\\Assets\\Scripts\\StateMachine\\StateMachineEX",
+  "SelectedNode": "\\Design_Pattern\\Assets\\Scripts\\StateMachine\\StateMachineEX\\StageState.cs",
   "PreviewInSolutionExplorer": false
 }

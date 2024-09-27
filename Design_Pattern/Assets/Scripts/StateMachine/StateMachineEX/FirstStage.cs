@@ -15,7 +15,7 @@ public class FirstStage : StageState, IStage
     }
     public void Update()
     {
-
+        
     }
     public void Exit()
     {
